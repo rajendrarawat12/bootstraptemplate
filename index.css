@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+.text-color {
+    color: #ffffff;
+}
+
+.float-left {
+    float: left;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h2,
+.h2 {
+
+    font-size: 7rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* header */
+.btn-primary {
+    background-color: #c71f9d;
+    border: #c71f9d;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Banner sec */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.page-header {
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    padding-bottom: 0;
+    margin: 0;
+    border-bottom: none;
+}
+
+.navbar {
+    background-color: #000000;
+
+}
+
+.banner-sec {
+    min-height: 100vh;
+    background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+
+}
+
+.one {
+    background: #cc0550;
+    width: 60rem;
+    height: 50rem;
+    right: -10%;
+    top: -8rem;
+}
+
+.two {
+    background: #e45310;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 10rem 10rem 0 0;
+    left: 110rem;
+    bottom: 0rem;
+}
+
+.three {
+    background: #e4522e8c;
+    width: 30rem;
+    height: 30rem;
+    top: -8rem;
+    left: 55rem;
+}
+
+.four {
+    background: #e74413af;
+    width: 50rem;
+    height: 50rem;
+    bottom: 0rem;
+    left: -15rem;
+
+}
+
+.inner-banner {
+    margin-top: 50px;
+    position: absolute;
+    min-width: 100%;
+    min-height: 40rem;
+    text-align: center;
+    top: 50px;
+    padding: 50px;
+}
+
+.inner-banner h1 {
+    font-size: 10rem;
+}
+
+/* section container */
+.container img {
+    height: 50rem;
+    width: 50rem;
+    padding-top: 1rem;
+}
+
+section .row {
+    display: flex;
+    align-items: center;
+}
+
+/* Slider */
+.slider .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner img {
+    min-width: 80rem;
+}
+
+.slider .row {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/* Footer */
+footer .panel-footer {
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
